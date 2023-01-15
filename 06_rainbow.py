@@ -23,6 +23,6 @@ start_point = sd.get_point(300, 0)
 radius = 100
 for i in range(7):
     sd.circle(start_point, radius, rainbow_colors[i],20)
-    radius += 21
+    radius += 20
 
 sd.pause()
