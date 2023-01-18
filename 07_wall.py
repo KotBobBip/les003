@@ -7,7 +7,7 @@ import simple_draw as sd
 # Использовать вложенные циклы for
 start_point = sd.get_point(0, 0)
 end_point = sd.get_point(100, 50)
-brick_color = sd.COLOR_ORANGE
+brick_color = sd.COLOR_DARK_RED
 for j in range(1, 12, 1):
     for i in range(1, 7, 1):
         sd.rectangle(start_point, end_point, brick_color, 0)
